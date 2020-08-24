@@ -1,0 +1,418 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap');
+
+
+:root{
+    --font : 'Bad Script', cursive;
+}
+
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header {
+    display:flex;
+    overflow: hidden;
+    align-items: center;
+    width:85rem;
+    /* position:sticky;
+    top:0; */
+    background: white;
+}
+
+
+header .brand{
+    width:10rem;
+    margin:0px 400px 0px 0px ;
+}
+/* 
+header .memu{
+    margin-left: 200px;
+} */
+
+header .menu a{
+    margin:0 20px;
+    color:black;
+    text-transform:uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .menu button{
+    height: 100%;
+    background:red;
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 10px;
+    border:1px solid red;
+}
+
+
+video {
+    width:100%; 
+}
+
+.section-text {
+    position:relative;
+    top:-30rem;
+    text-align: center;
+}
+
+.section-text button{
+    width:250px;
+    border-radius: 10px;
+    padding:10px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.section-text button:first-of-type{
+    background:red;
+    border:1px solid red;
+    color:white;
+}
+
+
+.section-text button:last-of-type{
+    background:white;
+    border:1px solid white;
+    color:black;
+}
+
+.section-text button:first-of-type:hover{
+    color:red;
+    background:white;
+    border-color: white;
+}
+
+
+.section-text button:last-of-type:hover{
+    color:white;
+    background:black;
+    border: 1px solid black;
+}
+
+/* ================class head part ======================= */
+
+
+.head{
+    padding: 0px 10px;
+    display:flex;
+    align-items: center;
+}
+
+.head .brand{
+    font-family: var(--font);
+    font-weight: bold;
+}
+
+.head .menu{
+    margin-left: 600px;
+    font-family: var(--font);
+    align-items: center;
+    display:flex;
+    font-weight: bold;
+}
+
+.head .menu .left{
+    flex-basis: 50%;
+}
+
+.head .menu .right{
+    padding:0px 6px;
+    border-left: 2px solid black;
+    flex-basis: 50%;
+}
+
+
+
+/* =================main======================== */
+
+.main{
+    margin: auto;
+}
+
+.main .section-1{
+    text-align: center;
+    overflow: hidden;
+}
+
+.main .section-1 img{
+    width:50rem;
+}
+
+
+.main .section-2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main .section-2 button{
+    width:50px;
+    height:30px;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main .section-2 #red{
+    background: red;
+    color:red;  
+}
+
+.main .section-2 #grey{
+    background:#6a6052;
+    color:#6a6052;
+}
+
+
+.main .section-2 #blue{
+    background:#19529b;
+    color:#19529b;
+}
+
+.main .section-2 #smoked{
+    background:#412c1b;
+    color:#412c1b;
+}
+
+.main .section-2 #green{
+    color:#2a3a2a;
+    background:#2a3a2a
+}
+
+.main .section-2 #metal{
+    color:#00031e;
+    background:#00031e;
+}
+
+.main .section-2 #white{
+    color:rgb(224, 220, 220);
+    background:rgb(224, 220, 220);
+}
+
+.main .section-0-5 {
+    text-align: center;
+    font-size: 56px;
+}
+
+.main .section-0-5 i{
+    cursor: pointer;
+    margin:0px 9px 0px 0px  
+}
+
+.main .buttonS{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main .buttonS button{
+    width:300px;
+    border-radius:10px;
+    padding:10px 10px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.main .buttonS button:first-of-type{
+    background:red;
+    color:white;
+    border:1px solid red;
+}
+
+
+.main .buttonS button:last-of-type{
+    background:black;
+    border:1px solid white;
+    color:white;
+   
+}
+
+
+
+/* =================== menuInBalck under the video========== */
+
+.menuInBlack{
+    display:flex;
+    align-items: center;
+    background:black;
+    height:4rem;
+    position:sticky;
+    top:0; 
+    margin-top: -2.5rem;
+    padding:5px 5px;
+}
+
+.menuInBlack .brand{
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    font-size:24px;
+}
+
+.menuInBlack .menu{
+    margin-left: 450px;
+}
+
+.menuInBlack .menu a{
+    color:white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    margin:0px 10px;
+    font-weight:bold;
+    padding:5px 5px;
+}
+
+.menuInBlack .menu a:first-of-type{
+    background:white;
+    border-bottom: red;
+    color:black;
+    height:10rem;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.menuInBlack .menu a:hover{
+    background:red;
+   border:none;
+    color:white;
+    height:10rem;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.menuInBlack .menu button{
+    background:red;
+    border-radius:10px;
+    border:1px solid red;
+    padding:10px 10px;
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+
+/* ======================== DISPLAYING CAR=================== */
+
+.divCar{
+    margin-top:50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.divCar .textDivCar{
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.divCar .textDivCar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:red;
+    font-size: 30px;
+    cursor:pointer;
+}
+
+.divCar .row{
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;
+    margin-top:30px;
+    margin-left: 60px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.divCar .row .__col{
+    flex-basis:20%;
+    text-align:center;
+    cursor:pointer;
+    padding:10px 10px;
+    overflow: hidden;
+}
+
+.divCar .row .__col img{
+    width:9rem;
+}
+
+.divCar .row .__col h3 {
+    font-weight: bold;
+}
+
+
+.divCar #but{
+    width:250px;
+    background:red;
+    padding:10px 10px;
+    color:black;
+    font-weight:bold;
+    cursor:pointer;
+    margin-top:40px;
+    border:none;
+    border-radius:27px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.divCar #but:hover{
+    background:rgb(153, 45, 45);
+    color:white;
+}
+
+/* ============== section-5 ==================== */
+.section-5{
+    display:flex;
+    align-items:center;
+    border-top:1px solid rgb(185, 183, 183);
+    height:4rem;
+}
+
+.section-5 .col{
+    flex-basis:50%;
+    text-align:center;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+
+.section-5 .col a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Baloo Tamma 2', cursive;
+} 
+
+
+/* =============== section-6 ===================== */
+
+.section-6{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    width:100%;
+    margin-bottom:50px;
+}
+
+.section-6 .col-md-4{
+    flex-basis: 33%;
+    overflow: hidden;
+}
+
+.section-6 .col-md-4 img{
+    width:100%;
+    height:20rem;
+    position:center;
+}
+
+.section-6 .col-md-4 img:hover{
+    transform:scale(1.1);
+}
+
+.section-6 .col-md-4 p{
+    position:relative;
+    top:-8rem;
+    text-align:center;
+    color:white;
+    background:black;
+    padding:10px 10px;
+    font-weight:bold;
+}
